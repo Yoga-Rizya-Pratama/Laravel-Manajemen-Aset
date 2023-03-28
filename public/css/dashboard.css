@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,200;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0px; */
+
+}
+
+.menus {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+
+    border-radius: 20px;
+}
+
+.zero {
+    background: rgba(99, 161, 255, 0.7);
+}
+
+.zero:hover {
+    background: rgba(48, 127, 245, 0.7);
+}
+
+.one {
+    background: rgba(102, 255, 99, 0.7);
+}
+
+.one:hover {
+    background: rgba(78, 255, 75, 0.7);
+}
+
+.two {
+    background: #FFD363;
+}
+
+.two:hover {
+    background: #ffc83e;
+}
+
+.three {
+    background: rgba(255, 99, 155, 0.7);
+}
+
+.three:hover {
+    background: rgba(255, 60, 132, 0.7);
+}
+
+.four {
+    background: rgba(233, 99, 255, 0.7);
+}
+
+.four:hover {
+    background: rgba(228, 50, 255, 0.7);
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fa-home {
+    margin-left: 15px;
+    margin-top: 30px;
+
+    color: #005CE7;
+
+}
+
+.menus h5 {
+    margin-top: 50px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.fa-book {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.fa-book-open {
+    margin-left: 15px;
+    margin-top: 30px;
+    color: #FF2272;
+}
+
+.fa-user {
+    margin-left: 15px;
+    margin-top: 30px;
+    color: #E01FFF;
+}
+
+.satu {
+    color: #04CB00;
+    ;
+}
+
+.dua {
+    color: #FDB600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.total {
+    width: 300px;
+    height: 170px;
+    margin-right: 20px;
+    background: #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+.total-container {
+    margin-top: 10px;
+    display: flex;
+    /* justify-content:space-around; */
+    margin-left: 30px;
+
+    gap: 10px;
+}
+
+.h {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+
+.text {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-h1 {
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+
+
+
+
+}
+
+.text-p {
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    margin-top: 2px;
+}
+
+.asset {
+    color: #66FF63;
+    margin-right: 10px;
+}
+
+.bidang {
+    color: #FFD363;
+    margin-right: 10px;
+}
+
+.asset-field {
+    margin: 20px 0px 0px 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.add-asset-button {
+    padding: 3px;
+    color: white;
+    display: flex;
+    width: 160px;
+    height: 35px;
+    justify-content: center;
+    background: #333333;
+    border-radius: 30px;
+}
+
+.add-asset-button:hover {
+    background-color: #585858;
+}
+
+.fa-plus {
+    color: #92BDFF;
+    margin-top: 6px;
+    margin-left: -30px;
+    margin-right: 15px;
+}
+
+.add-text {
+    margin-top: 6px;
+}
+
+
+.search-button {
+    width: 280px;
+    height: 35px;
+
+    background: #FFFFFF;
+    border: 2px solid #92BDFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.search-button input {
+
+    width: 230px;
+    padding: 3px;
+    margin-left: 10px;
+    margin-top: 1px;
+    border: none;
+    border-style: none;
+    outline: none;
+}
+
+.fa-search {
+    color: #92BDFF;
+}
+
+.links {
+    margin-left: 30px;
+}
+
+.links h6 {
+    color: #92BDFF;
+}
+
+.circle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-file {
+    color: #92BDFF;
+}
+
+.btn-cari {
+    border: none;
+    background-color: white;
+}
+
+th {
+    font-size: 12px;
+}
+
+td {
+    font-size: 12px;
+}
+
+.card-confir {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-cd {
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: #FFD363;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 5px;
+    /* position: fixed; */
+    top: 500px;
+}
+
+.btn-cd:hover {
+    background-color: #ffbd15;
+    color: white;
+}
+
+.btn-detail{
+    border: none;
+    width: 100%;
+    height: 30px;
+    background-color: #92BDFF;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 5px;
+    /* position: fixed; */
+    top: 500px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    /* position: fixed; */
+}
+
+.btn-detail:hover{
+    background-color: #076aff;
+    color: white;
+}
+
+.h6 h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.h6 p{
+    color:rgb(56, 56, 56);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.active{
+    width: 900px;
+}
+
+.edit-barangs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pilih-tahun{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    /* align-items: center; */
+}
+.form-select{
+    border-radius: 30px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.form-select option{
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn-cek{
+    background-color:#92BDFF;
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.btn-cek:hover{
+    background-color:#1573ff;
+}
+
+.text-laporan{
+    text-align: center;
+
+}
+
+.text-laporan h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.batas-hr{
+    border: 1px solid black;
+    /* border-color: black; */
+}
+
+.header-laporan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tanggal{
+    margin-top: 120px;
+}
+
+.img{
+    margin-left: -40px;
+}
+
+/*untuk layar device berukuran kecil*/
+/* @media screen and (min-width: 450px) {
+    .menus {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+
+        border-radius: 20px;
+    }
+ } */
+
+ /*untuk layar device berukuran sedang*/
+ /* @media screen and (min-width: 550px) {
+    .red {
+        width: 33%;
+    }
+
+    .orange {
+        width: 67%;
+    }
+ } */
+
+ /*untuk layar device berukuran besar*/
+ /* @media screen and (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ } */
+.menset{
+    color:#66FF63;
+    letter-spacing: 1px;
+}
+
+.btn-login{
+    background-color:#66FF63;
+}
+
+.btn-login:hover{
+    background-color:#13ff0f;
+}
+
+.menset-p{
+    text-indent: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    max-width: 500px;
+}
